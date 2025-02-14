@@ -14,7 +14,9 @@ export default function Home() {
             Your login and registration functionality is fully integrated with MongoDB, ensuring that user data is stored securely. 
 
               <br/><br/><br/><strong> 🔐 You can use the following links at any entry point in your app. 🔑🔒</strong>
-                <br/>Check out the secure user authentication system you created!
+                <br/>Check out the secure user authentication system you created! </p>
+        
+         {/* Links to registration and login */}
           <br/><br/><div className="flex gap-4 justify-center">
               <a
                 href="/register"
@@ -29,7 +31,7 @@ export default function Home() {
                 Login
               </a>
           </div>
-
+<p>
               <br/><br/><br/><strong>This page is your homepage/landing page.</strong><br/>
             It serves as an introduction to your app where you can guide users
               to log in, create an account, or explore other features. 
