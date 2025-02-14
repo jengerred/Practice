@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Home() {
   return (
  
-    <div className="grid grid-rows-[10px_1fr_10px] items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:p-20 font-[family-name:var(--font-geist-sans)]"> {/* Reduced top/bottom rows and gap */}
-    <main className="flex flex-col gap-4 row-start-2 items-center sm:items-start"> {/* Reduced gap from 8 to 4 */}
+    <div className="grid grid-rows-[10px_1fr_10px] items-center justify-items-center min-h-screen p-8 pb-20 font-[family-name:var(--font-geist-sans)]"> 
+    <main className="flex flex-col gap-4 row-start-2 items-center sm:items-start"> 
       <div className="text-center">
        
         <h1 className="text-3xl font-bold text-gray-900 mb-4">
@@ -32,15 +32,16 @@ export default function Home() {
               </a>
           </div>
     {/* End of Links */}
-    
+      <div className="mt-20">
             <p>
-              <br/><br/><br/><strong>This page is your homepage/landing page.</strong><br/>
+           <strong>This page is your homepage/landing page.</strong><br/>
             It serves as an introduction to your app where you can guide users
               to log in, create an account, or explore other features. 
-
             </p>
       </div>
-     
+      
+      </div>
+    
       <div className="mx-auto w-fit">
         <Image
           className="dark:invert"
