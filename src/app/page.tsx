@@ -16,8 +16,8 @@ export default function Home() {
               <br/><br/><br/><strong> 🔐 You can use the following links at any entry point in your app. 🔑🔒</strong>
                 <br/>Check out the secure user authentication system you created! </p>
         
-         {/* Links to registration and login */}
-          <br/><br/><div className="flex gap-4 justify-center">
+    {/* Links to registration and login */}
+          <div className="flex gap-4 justify-center">
               <a
                 href="/register"
                 className="px-6 py-2 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-colors text-sm font-medium"
@@ -31,12 +31,14 @@ export default function Home() {
                 Login
               </a>
           </div>
-<p>
+    {/* End of Links */}
+    
+            <p>
               <br/><br/><br/><strong>This page is your homepage/landing page.</strong><br/>
             It serves as an introduction to your app where you can guide users
               to log in, create an account, or explore other features. 
 
-              </p>
+            </p>
       </div>
      
       <div className="mx-auto w-fit">
