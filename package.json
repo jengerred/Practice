@@ -2,9 +2,12 @@
   "name": "mfa-core",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+"types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "build": "tsc",
+  "test": "jest"
+    
   },
   "keywords": [],
   "author": "",
@@ -19,6 +22,8 @@
   "devDependencies": {
     "@types/qrcode": "^1.5.5",
     "@types/speakeasy": "^2.0.10",
+    "speakeasy": "^2.0.0",
+    "qrcode": "^1.5.0",
     "typescript": "^5.7.3"
   }
 }
